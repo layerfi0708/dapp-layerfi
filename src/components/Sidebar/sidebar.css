@@ -1,0 +1,28 @@
+.main-font {
+    font-family: "Bebas Neue";
+}
+@keyframes showNav {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes hideNav {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.showNav {
+    animation: showNav 0.5s ease forwards;
+}
+
+.hideNav {
+    animation: hideNav 0.5s ease forwards;
+}
